@@ -11,5 +11,5 @@ plt.show()
 
 plt.figure(num=3,figsize=(5,5))
 plt.plot(x,z)
-plt.plot
+plt.plot(x,y,color='red',linewidth=1.0,linestyle='--')
 plt.show()
