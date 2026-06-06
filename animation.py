@@ -8,7 +8,7 @@ x=np.arange(0,2*np.pi,0.01)
 line,=ax.plot(x,np.sin(x))
 
 def anim(i):
-    line.set_ydata(np.sin(x+i/100))
+    line.set_ydata(np.sin(x+i/10))
     return line,
 
 def ini():
